@@ -1,5 +1,7 @@
 #Homer Project, Alfredo Pizzirani, 2025
 
+# USE OF THIS PROGRAM IS NOT RECOMMENDED. 
+
 # lemmatize one book of the Iliad
 # input: file produced by remove_stop_words.py
 # output: comma delimited file, one row per each line of the poem, with original text words replaced with lemmas and stops removed
@@ -49,4 +51,6 @@ with open(input_file, 'r', encoding='utf-8') as input_file :
 
 
 file.close()
+
+
 
